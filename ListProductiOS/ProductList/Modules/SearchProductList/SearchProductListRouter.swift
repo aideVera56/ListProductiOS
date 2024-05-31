@@ -27,8 +27,8 @@ class SearchProductListRouter {
 }
 
 extension SearchProductListRouter: SearchProductListPresenterToRouter {
-    func goToProductList(product: [ProductModel], navigation: UINavigationController) {
-        let vc = ProductListRouter().createModule(productList: product)
+    func goToProductList(product: [ProductModel], navigation: UINavigationController, delegate: ProductSelectionDelegate?) {
+        let vc = ProductListRouter().createModule(productList: product, delegate: delegate)
         navigation.pushViewController(vc, animated: true)
     }
 }

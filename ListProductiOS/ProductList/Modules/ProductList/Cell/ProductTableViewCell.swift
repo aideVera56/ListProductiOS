@@ -16,7 +16,6 @@ class ProductTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -25,10 +24,9 @@ class ProductTableViewCell: UITableViewCell {
     }
     
     func getData(product: ProductModel) {
-        let urlImage = URL(string: product.urlImagenes.first ?? "")!
-        productImage.loadString(url: urlImage)
+        productImage.loadString(url: URL(string: product.urlImagenes.first ?? "")!)
         nameProduct.text = product.nombre
-        priceProduct.text = "\(product.precioFinal)"
+        priceProduct.text = "\(String(describing: product.precioFinal ?? 0.0))"
         categoryProduct.text = product.codigoCategoria
     }
     

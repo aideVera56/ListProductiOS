@@ -14,9 +14,9 @@ class SearchProductListPresenter {
 }
 
 extension SearchProductListPresenter: SearchProductListViewToPresenter {
-    func goToProductList(product: [ProductModel]) {
+    func goToProductList(product: [ProductModel], delegate: ProductSelectionDelegate?) {
         guard let navigationController = (view as? SearchProductListViewController)?.navigationController else { return }
-        router?.goToProductList(product: product, navigation: navigationController)
+        router?.goToProductList(product: product, navigation: navigationController, delegate: delegate)
     }
     
     func getDataProduct() {

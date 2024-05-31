@@ -7,47 +7,95 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7C0835CD-9243-49D5-8C98-72690CC66DE4"
+            uuid = "55DBD065-5085-44FB-B4CD-5BE1E4D74D0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductList/Modules/ProductList/ProductListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "55DBD065-5085-44FB-B4CD-5BE1E4D74D0E - d2ddc629455b6b63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListProductiOS.ProductListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "ListProductiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessvera/Documents/GitHub/ListProductiOS/ListProductiOS/ProductList/Modules/ProductList/ProductListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "502">
+               </Location>
+               <Location
+                  uuid = "55DBD065-5085-44FB-B4CD-5BE1E4D74D0E - 91fbbbdf077b6da3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductList.ProductListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "ProductList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessvera/Documents/GitHub/ListProductiOS/ListProductiOS/ProductList/Modules/ProductList/ProductListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "502">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37706AC5-836D-4501-B4F2-00771783F3C3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProductList/Modules/SearchProductList/SearchProductListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "loadData(productList:)"
-            landmarkType = "7">
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "didSelectProduct(product:)"
+            landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "7C0835CD-9243-49D5-8C98-72690CC66DE4 - e66f6127ff5f300c"
+                  uuid = "37706AC5-836D-4501-B4F2-00771783F3C3 - 91633293d8c99af5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ListProductiOS.SearchProductListViewController.loadData(productList: ListProductiOS.ProductListResponse) -&gt; ()"
+                  symbolName = "ListProductiOS.SearchProductListViewController.didSelectProduct(product: ListProductiOS.ProductModel) -&gt; ()"
                   moduleName = "ListProductiOS"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jessvera/Documents/GitHub/ListProductiOS/ListProductiOS/ProductList/Modules/SearchProductList/SearchProductListViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "74">
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "313">
                </Location>
                <Location
-                  uuid = "7C0835CD-9243-49D5-8C98-72690CC66DE4 - 1f98fc2e3b79d36c"
+                  uuid = "37706AC5-836D-4501-B4F2-00771783F3C3 - fd2a8225293b7b48"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ProductList.SearchProductListViewController.loadData(productList: ProductList.ProductListResponse) -&gt; ()"
+                  symbolName = "ProductList.SearchProductListViewController.didSelectProduct(product: ProductList.ProductModel) -&gt; ()"
                   moduleName = "ProductList"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jessvera/Documents/GitHub/ListProductiOS/ListProductiOS/ProductList/Modules/SearchProductList/SearchProductListViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "74">
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "313">
                </Location>
             </Locations>
          </BreakpointContent>

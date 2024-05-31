@@ -7,11 +7,16 @@
 
 import UIKit
 
+protocol ProductSelectionDelegate: AnyObject {
+    func didSelectProduct(product: ProductModel)
+}
+
 class ProductListViewController: UIViewController {
     
     static let nibName = "ProductListViewController"
     @IBOutlet weak var productTableView: UITableView!
     var presenter: ProductListViewToPresenter?
+    var delegate: ProductSelectionDelegate?
     var productListArray: [ProductModel] = []
     
     override func viewDidLoad() {
@@ -44,5 +49,11 @@ extension ProductListViewController: UITableViewDelegate, UITableViewDataSource 
         let productData = productListArray[indexPath.row]
         cell.getData(product: productData)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedProduct = productListArray[indexPath.row]
+        navigationController?.popViewController(animated: true)
+        delegate?.didSelectProduct(product: selectedProduct)
     }
 }

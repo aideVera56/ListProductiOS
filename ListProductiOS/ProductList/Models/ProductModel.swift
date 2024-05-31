@@ -41,7 +41,7 @@ struct ProductModel: Codable {
   var precioFinal: Double?
   var porcentajeDescuento: Double?
   var descuento: Bool
-  var precioCredito: Double? // Changed to Double?
+  var precioCredito: Double?
   var montoDescuento: Double?
   var abonosSemanales: [WeeklyPassesModel]
 }
@@ -59,5 +59,3 @@ struct WeeklyPassesModel: Codable {
   var precio: Int
   var montoAbonoDigital: Int
 }
-
-// ... your code to get JSON data and decode it

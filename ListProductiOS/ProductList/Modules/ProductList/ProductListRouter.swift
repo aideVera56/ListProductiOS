@@ -10,13 +10,14 @@ import UIKit
 class ProductListRouter {
     var presenter: ProductListRouterToPresenter?
     
-    public func createModule(productList: [ProductModel]) -> UIViewController {
+    public func createModule(productList: [ProductModel], delegate: ProductSelectionDelegate?) -> UIViewController {
         let view       = ProductListViewController().initWithNibName()
         let presenter  = ProductListPresenter()
         let interactor = ProductListInteractor()
         let router     = ProductListRouter()
         
         view.presenter          = presenter
+        view.delegate           = delegate
         view.productListArray   = productList
         presenter.view          = view
         presenter.interactor    = interactor

@@ -9,7 +9,7 @@ import UIKit
 
 protocol SearchProductListViewToPresenter {
     func getDataProduct()
-    func goToProductList(product: [ProductModel])
+    func goToProductList(product: [ProductModel], delegate: ProductSelectionDelegate?)
 }
 protocol SearchProductListInteractorToPresenter {
     func responseData(productList: ProductListResponse)
@@ -24,5 +24,5 @@ protocol SearchProductListPresenterToInteractor {
     func getDataProduct() 
 }
 protocol SearchProductListPresenterToRouter {
-    func goToProductList(product: [ProductModel], navigation: UINavigationController)
+    func goToProductList(product: [ProductModel], navigation: UINavigationController, delegate: ProductSelectionDelegate?)
 }
