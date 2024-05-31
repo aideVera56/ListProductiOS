@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "47D87213-A078-422A-961D-5D20F16BCB70"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C0835CD-9243-49D5-8C98-72690CC66DE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductList/Modules/SearchProductList/SearchProductListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "loadData(productList:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C0835CD-9243-49D5-8C98-72690CC66DE4 - e66f6127ff5f300c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListProductiOS.SearchProductListViewController.loadData(productList: ListProductiOS.ProductListResponse) -&gt; ()"
+                  moduleName = "ListProductiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessvera/Documents/GitHub/ListProductiOS/ListProductiOS/ProductList/Modules/SearchProductList/SearchProductListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "7C0835CD-9243-49D5-8C98-72690CC66DE4 - 1f98fc2e3b79d36c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductList.SearchProductListViewController.loadData(productList: ProductList.ProductListResponse) -&gt; ()"
+                  moduleName = "ProductList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessvera/Documents/GitHub/ListProductiOS/ListProductiOS/ProductList/Modules/SearchProductList/SearchProductListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "74">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
