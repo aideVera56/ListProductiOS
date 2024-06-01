@@ -67,8 +67,8 @@ extension SearchProductListViewController: ProductSelectionDelegate {
         productImage.loadString(url: URL(string: product.urlImagenes.first ?? "")!)
         nameProduct.text = product.nombre
         skuProduct.text = "SKU: " + product.sku
-        priceProduct.text = " Precio: \(String(describing: product.precioFinal ?? 0.0))"
-        mainWeeklyPayment.text = "Pago Semanal: \(String(describing: product.pagoSemanalPrincipal ?? 0))"
+        priceProduct.text = "Precio: \(String(describing: product.precioFinal ?? 0.0))"
+        mainWeeklyPayment.text = "Pago Semanal: \(String(describing: product.pagoSemanalPrincipal))"
         
     }
 }

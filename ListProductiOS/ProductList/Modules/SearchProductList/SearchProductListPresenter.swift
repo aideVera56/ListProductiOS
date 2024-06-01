@@ -29,6 +29,7 @@ extension SearchProductListPresenter: SearchProductListInteractorToPresenter {
     }
     
     func responseError(message: String) {
+        view?.loadError(message: message)
         
     }
 }
